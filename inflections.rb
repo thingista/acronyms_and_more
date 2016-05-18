@@ -43,7 +43,17 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
   inflect.acronym 'PR'
   inflect.acronym 'iPhone' # Only partially works. Titleize will return "IPhone". But it's better than "I Phone"
   inflect.acronym 'iPad'
+  inflect.acronym 'iTunes'
+  inflect.acronym 'iPod'
   inflect.acronym 'USB'
   inflect.acronym 'CNN'
   inflect.acronym 'NBC'
+  inflect.acronym 'HP'
+  inflect.acronym 'GM'
+  inflect.acronym 'BBC'
+  inflect.acronym 'LP'
+  inflect.acronym 'DSSTNE'
+  inflect.acronym 'IPO'
+  inflect.acronym 'ESPN'
+  inflect.acronym 'IMF'
 end
